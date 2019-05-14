@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title |文件系统
+    link(rel="stylesheet", href="http://at.alicdn.com/t/font_1189306_zhyxufmk77o.css")
+    style.
+      a{
+        text-decoration: none;
+        outline-style: none;
+        color: cornflowerblue;
+      }
+      ol li i{
+        width: 16px;
+        height: 16px;
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        color: darkorange;
+      }
+
+  body
+    ol
+      each item in files
+        li
+          i(class='#{item.iconClass}')
+          a(href="#{dir}#{item.name}")
+            span #{item.name}
