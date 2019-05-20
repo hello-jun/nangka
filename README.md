@@ -67,5 +67,5 @@ cd /usr/local
 npx nangka --thost 127.0.0.1 --tport 8099
 ```    
 
-此时 ajax请求 http://127.0.0.1:8080/api/home?username=jun,即会被代理至 http://127.0.0.1:8088/home?username=jun
+此时 ajax请求 http://127.0.0.1:8080/api/home?username=jun , 即会被代理至 http://127.0.0.1:8088/home?username=jun
 ，其中 /api/是不可缺少的接口标识

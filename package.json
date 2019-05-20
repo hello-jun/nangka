@@ -1,6 +1,6 @@
 {
   "name": "nangka",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "app.js",
   "bin": {
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jade": "^1.11.0"
+    "etag": "^1.8.1",
+    "jade": "^1.11.0",
+    "yargs": "^13.2.4"
   }
 }

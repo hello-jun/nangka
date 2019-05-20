@@ -10,7 +10,7 @@ class Server {
       detail_config.proxy={thost:argv.thost,tport:argv.tport}
     }
     this.config = detail_config;
-    console.log (this.config);
+    // console.log (this.config);
   }
   //启动服务
   startServer(){
