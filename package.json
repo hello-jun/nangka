@@ -1,6 +1,6 @@
 {
   "name": "nangka",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "app.js",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["serve","静态资源服务器","static server","proxy","正向代理"],
   "author": "",
   "license": "ISC",
   "dependencies": {

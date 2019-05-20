@@ -79,7 +79,3 @@ npx nangka --thost 127.0.0.1 --tport 8099
 3. v1.0.3-beta
     - 修复了使用反向代理进行内外网穿透时，无法访问的问题
     - 修复markdown文档显示中文乱码的问题    
-
-# Keywords
-static server,serve,静态资源服务器,proxy,正向代理
-
