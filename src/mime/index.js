@@ -73,7 +73,7 @@ const mineType = {
     "icon": "iconfont icon-xml"
   },
   "md": {
-    "ct": "text/x-markdown",
+    "ct": "text/x-markdown;charset=utf-8",
     "icon": "iconfont icon-file-markdown"
   },
 };

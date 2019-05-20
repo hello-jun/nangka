@@ -1,7 +1,7 @@
 # NangKa
     如果你想搭建静态资源服务器，或者发布静态资源，nangka 将是你的一个不错的选择
     你既可以将 nangka 作为命令行工具使用，也可以引入项目中，进行个性化定制开发
-
+> [GitHub 传送门](https://github.com/Jetz1818/nangka)
 ---
 
 ## 功能：
@@ -29,7 +29,7 @@ npx nangka --r /usr/local --h 127.0.0.1 --p 8081
 ```bash
 npx nangka
 ```
-将会默认监听 http://127.0.0.1:8080 , 并自动使用默认浏览器打开
+将会默认监听 http://0.0.0.0:8080 , 并自动使用默认浏览器打开
 
 options:    
  - r,root_path 指定要发布的静态资源目录（必须是绝对路径）
@@ -69,3 +69,17 @@ npx nangka --thost 127.0.0.1 --tport 8099
 
 此时 ajax请求 http://127.0.0.1:8080/api/home?username=jun , 即会被代理至 http://127.0.0.1:8088/home?username=jun
 ，其中 /api/是不可缺少的接口标识
+
+# 版本更新日志：
+1. v1.0.1-beta 
+    - 增加 README.md 说明文档
+    - 增加 正向代理功能
+2. v1.0.2-beta
+    - 修复了 CentOS 上可能无法使用的问题
+3. v1.0.3-beta
+    - 修复了使用反向代理进行内外网穿透时，无法访问的问题
+    - 修复markdown文档显示中文乱码的问题    
+
+# Keywords
+static server,serve,静态资源服务器,proxy,正向代理
+

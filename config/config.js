@@ -1,5 +1,5 @@
 module.exports = {
-  host: '127.0.0.1',
+  host: '0.0.0.0',
   port: '8080',
   base_path:process.cwd(),//命令启动路径
   compress_exts:['html','js','css','json','md','txt','xml'],
